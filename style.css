@@ -74,7 +74,7 @@ section nav .icon i:hover{
 }
 
 .main{
-    background-image: url("../images/back.jpg");
+    background-image: url("back.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover
@@ -157,7 +157,7 @@ section p{
 }
 
 .delicacies{
-    background-image: url("../images/back.jpg");
+    background-image: url("back.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover
@@ -240,7 +240,7 @@ section p{
 
 
 .Contactus{
-    background-image: url("../images/ground.jpg");
+    background-image: url("ground.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover
@@ -362,7 +362,7 @@ section p{
 } 
 
 .Login{
-    background-image: url("../images/back.jpg");
+    background-image: url("back.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover

@@ -82,7 +82,7 @@ nav ul li a::after{
 }
 
 .top-container{
-    background-image: url("../images/Binallay.png");
+    background-image: url("Binallay.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover
@@ -109,7 +109,7 @@ nav ul li a::after{
 
 
 .middle-container{
-    background-image: url("../images/backk.png");
+    background-image: url("backk.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover
