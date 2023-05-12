@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1 {
+    margin-top: 0;
+    width: 8%;
+    margin: 0 auto 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: aliceblue;
+    box-shadow: 0 0 10px black;
+    z-index: 1000;
+}
+
+nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 7px 0;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.1s;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: burlywood;
+    display: block;
+    transition: 0.2s linear;
+}
+
+ nav ul li a:hover::after{
+    width: 100%;
+}
+
+ nav ul li a:hover{
+    color: burlywood;
+}
+
+ nav .icon{
+    font-size: 20px;
+    margin: .5px;
+    cursor: pointer;
+    transform: .03s;
+}
+
+.top-container{
+    background-image: url("../images/Pancit\ Cabagan.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover
+ 
+}
+
+
+ .top-container {
+    background-color: burlywood;
+    position: relative;
+    padding: 100px;
+} 
+
+
+
+.top-container h1{
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px ;
+}
+
+
+.middle-container{
+    background-image: url("../images/backk.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover
+ 
+}
+
+.middle-container .atext p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 60px;
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+    line-height: 40px;
+}
